@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/openai-sample/clientlibs"/>
+    <filter root="/apps/openai-sample/components"/>
+    <filter root="/apps/openai-sample/i18n"/>
+</workspaceFilter>

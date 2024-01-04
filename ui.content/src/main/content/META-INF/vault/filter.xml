@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/openai-sample" mode="merge"/>
+    <filter root="/content/openai-sample" mode="merge"/>
+    <filter root="/content/dam/openai-sample" mode="merge">
+        <exclude pattern="/content/dam/openai-sample(/.*)?"/>
+        <include pattern="/content/dam/openai-sample/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/openai-sample/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/openai-sample" mode="merge"/>
+</workspaceFilter>

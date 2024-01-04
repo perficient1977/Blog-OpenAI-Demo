@@ -1,0 +1,13 @@
+{
+  "apiHostName": "https://api.openai.com",
+  "uriType": "/v1/engines/davinci/completions",
+  "apiKey": "XXXXXXXXXXXX",
+  "assistantId": "asst_XXXXXXXXXX",
+  "relaxedSSL": true,
+  "maxTotalOpenConnections": 4,
+  "maxConcurrentConnectionPerRoute": 2,
+  "defaultKeepAliveconnection": 15,
+  "defaultConnectionTimeout": 30,
+  "defaultSocketTimeout": 30,
+  "defaultConnectionRequestTimeout": 30
+}

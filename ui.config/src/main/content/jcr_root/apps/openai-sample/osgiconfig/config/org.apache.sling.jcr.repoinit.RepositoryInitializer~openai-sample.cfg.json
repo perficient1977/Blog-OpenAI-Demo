@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/openai-sample",
+        "create path (nt:unstructured) /content/dam/openai-sample/jcr:content",
+        "set properties on /content/dam/openai-sample/jcr:content\n  set cq:conf{String} to /conf/openai-sample\n  set jcr:title{String} to \"OpenAI Sample\"\nend"
+    ]
+}
